@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE-edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="inception"/>
+    <meta name="description" content="페이지 설명"/>
+    <title>Security & Java Mail Sender</title>
+</head>
+
+<body>
+    <h1>회원가입</h1>
+    <form action="join" method="post">
+        <p>아이디 : <input type="text" name="secuId" placeholder="아이디를 입력해주세요"></p>
+        <p>비밀번호 : <input type="password" name="secuPw" placeholder="비밀번호를 입력해주세요"></p>
+        <p>이메일 : <input type="email" name="secuEmail" placeholder="이메일을 입력해주세요"></p>
+        <input type="submit" value="가입">
+    </form>
+
+    <hr/>
+    <h1>로그인</h1>
+    <form action="login" method="post">
+        <p>아이디 : <input type="text" name="secuId" placeholder="아이디를 입력해주세요"></p>
+        <p>비밀번호 : <input type="password" name="secuPw" placeholder="비밀번호를 입력해주세요"></p>
+        <input type="submit" value="로그인">
+    </form>
+
+</body>
+</html>
